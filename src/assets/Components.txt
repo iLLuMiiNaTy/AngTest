@@ -1,0 +1,58 @@
+### Composants Généraux
+
+1. **AppComponent**
+   - Le composant racine de votre application.
+   
+2. **NavbarComponent**
+   - Composant pour la barre de navigation supérieure, éventuellement pour naviguer entre les différentes sections ou blogs.
+
+### Gestion de l'Authentification
+3. **LoginComponent**
+   - Composant pour gérer la connexion des utilisateurs.
+
+4. **RegisterComponent**
+   - Composant pour l'enregistrement de nouveaux utilisateurs.
+
+### Gestion des Blogs
+5. **BlogListComponent**
+   - Composant pour afficher la liste de tous les blogs disponibles (pour la version 3, inclure des filtres en fonction des droits d’accès).
+
+6. **BlogDetailComponent**
+   - Composant pour l'affichage des détails d'un blog spécifique et la liste de ses messages.
+
+7. **BlogCreateComponent**
+   - Composant pour la création d'un nouveau blog.
+
+8. **BlogEditComponent**
+   - Composant pour l'édition des détails d'un blog existant.
+
+### Gestion des Messages
+9. **PostListComponent**
+   - Composant pour lister les messages d'un blog donné.
+
+10. **PostDetailComponent**
+   - Composant pour visualiser un message spécifique.
+
+11. **PostCreateComponent**
+   - Composant pour la création d'un nouveau message.
+
+12. **PostEditComponent**
+   - Composant pour l'édition d'un message existant.
+
+### Gestion des Utilisateurs
+13. **UserEditComponent**
+   - Composant pour qu'un utilisateur puisse éditer ses informations personnelles.
+
+### Gestion des Droits d'Accès
+(Il se peut que vous décidiez d'intégrer la gestion des droits d'accès directement dans certains des composants précédents, en fonction de la manière dont vous structurez votre application.)
+
+### Fonctionnalités Additionnelles
+- **ErrorPageComponent**
+  - Un composant pour afficher une page d'erreur en cas de route non trouvée ou d'accès non autorisé.
+
+- **FooterComponent**
+  - Composant pour le pied de page, si nécessaire.
+
+Chaque composant doit être conçu de manière à responsabiliser une partie spécifique de l'application et à en faciliter la réutilisation. 
+Pensez à intégrer des services Angular pour gérer les appels HTTP, l'authentification, et la communication entre composants lorsque nécessaire. 
+Gardez à l'esprit que la structure suggérée ici est basique et que la complexité de votre application peut nécessiter des ajustements.
