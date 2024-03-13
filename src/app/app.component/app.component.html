@@ -4,6 +4,11 @@
 
   <!-- Content below navbar -->
   <div class="content">
+    <h1 [innerHTML]="title"></h1>
+    <h2 [innerHTML]="title"></h2>
+    {{ name }}
+    {{ age }}
+    <img [src] = "imgSrc" />
     <!-- Router Outlet ou autre contenu -->
     <router-outlet></router-outlet>
   </div>

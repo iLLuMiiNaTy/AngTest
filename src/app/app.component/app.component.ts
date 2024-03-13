@@ -11,4 +11,13 @@ import { NavbarComponent } from "../navbar/navbar.component";
 })
 export class AppComponent {
   title = 'AngTest';
+  name: String;
+  age: number;
+  imgSrc : string = "https://dojotaku.com/cdn/shop/articles/luffy-age.webp?v=1686482098"
+
+  constructor(){
+    this.name = "Nicolas";
+    this.age = 20;
+    
+  }
 }
